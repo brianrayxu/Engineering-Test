@@ -13,7 +13,7 @@ Documentation for 7Timer: http://www.7timer.info/doc.php?lang=en
 ## Instructions
 First, download the zip file of this repository onto your local machine
 
-For the first part, just open the python notebook called "Engineering Test.ipynb" and run the cells within the notebook. This will generate a "combined.csv" file where the aggregate information will be displayed.
+For the first part, just open the python notebook called "Engineering Test.ipynb" and run the cells within the notebook. This will generate a "combined.csv" file in the "Engineering Test Files" directory where the aggregate information will be displayed.
 
 For the second part, navigate into the directory with "server.js" and run:
 ```
@@ -21,4 +21,4 @@ npm install
 node server.js
 ```
 
-This will query the API and insert an instance into the database. In addition, there is a teseting command that will print the entire database in order to show that each insert worked. Feel free to run "server.js" multiple times and see more instances get inserted into the DB. 
+This will query the API and insert an instance into the database. In addition, there is a testing module in "server.js" that will print the entire database to the console in order to show that each insert worked. Feel free to run "server.js" multiple times and see more instances get inserted into the DB. 
