@@ -12,7 +12,7 @@ request('http://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=civillig
         "weather": obj.dataseries[0].weather,
         }
 
-        const url = "mongodb+srv://Brian:cyp1b1@cluster0.v056q.mongodb.net/<dbname>?retryWrites=true&w=majority";
+        const url = "mongodb+srv://Brian:cyp1b1@cluster0.v056q.mongodb.net/test1?retryWrites=true&w=majority";
         var MongoClient = require('mongodb').MongoClient;
         MongoClient.connect(url, function (err, client) {
             if (err) throw err;
